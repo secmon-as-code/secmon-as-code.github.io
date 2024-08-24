@@ -18,8 +18,8 @@ languages:
       series: series
     menu:
       main:
-        - name: Overview
-          url: posts/overview/
+        - name: Concept
+          url: posts/concept/
           weight: 1
         - name: Architecture
           url: posts/architecture/
@@ -27,14 +27,12 @@ languages:
         - name: Tools
           url: posts/tools/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
 params:
   homeInfoParams:
     Title: Security Monitoring as Code
     Content: >
-      **Security Monitoring as Code**
+      **Security Monitoring as Code** is ...
 
   socialIcons:
     - name: "github"
