@@ -2,3 +2,41 @@ baseURL: https://secmon-as-code.github.io/
 languageCode: en-us
 title: Security Monitoring as Code
 theme: ["PaperMod"]
+mainsections: ["posts"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Overview
+          url: posts/overview/
+          weight: 1
+        - name: Architecture
+          url: posts/architecture/
+          weight: 5
+        - name: Tools
+          url: posts/tools/
+          weight: 10
+        - name: WiKi
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+
+params:
+  homeInfoParams:
+    Title: Security Monitoring as Code
+    Content: >
+      **Security Monitoring as Code**
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/secmon-as-code"
+  disableThemeToggle: true
