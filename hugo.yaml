@@ -1,0 +1,16 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Security Monitoring as Code"
+theme: "hugo-flex"
+
+menu:
+  main:
+    - name: Architecture
+      pageRef: posts/architecture
+      weight: 1
+    - name: Tools
+      pageRef: posts/tools
+      weight: 3
+    - name: Categories
+      pageRef: /categories
+      weight: 4
